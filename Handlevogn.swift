@@ -26,7 +26,7 @@ struct Handlevogn: View {
                     }
                 }
             } else {
-                Text("Laster Inn...")
+                Text("Laster opp...")
             }
         }
         .onAppear(perform: loadData)
@@ -94,4 +94,5 @@ struct Handlevogn: View {
         var discountedPrice: Double
     }
 }
+
 

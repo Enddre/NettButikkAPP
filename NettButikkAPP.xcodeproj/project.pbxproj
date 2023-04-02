@@ -10,7 +10,7 @@
 		6D6F02F929D6DA6500E333CC /* Brukere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F02F829D6DA6500E333CC /* Brukere.swift */; };
 		6D6F02FD29D6FB2100E333CC /* Produkter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F02FC29D6FB2100E333CC /* Produkter.swift */; };
 		6D6F030329D84FFD00E333CC /* LoginSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F030229D84FFD00E333CC /* LoginSide.swift */; };
-		6DDB530F29DA036400FBBC94 /* Handlevogn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB530E29DA036400FBBC94 /* Handlevogn.swift */; };
+		6DF186FF29DA16D6000D1DAD /* Handlevogn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF186FE29DA16D6000D1DAD /* Handlevogn.swift */; };
 		6DF70A6D29D1C2D500F9F5C6 /* NettButikkAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF70A6C29D1C2D500F9F5C6 /* NettButikkAPPApp.swift */; };
 		6DF70A6F29D1C2D500F9F5C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF70A6E29D1C2D500F9F5C6 /* ContentView.swift */; };
 		6DF70A7129D1C2D600F9F5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF70A7029D1C2D600F9F5C6 /* Assets.xcassets */; };
@@ -21,7 +21,7 @@
 		6D6F02F829D6DA6500E333CC /* Brukere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brukere.swift; sourceTree = "<group>"; };
 		6D6F02FC29D6FB2100E333CC /* Produkter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produkter.swift; sourceTree = "<group>"; };
 		6D6F030229D84FFD00E333CC /* LoginSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSide.swift; sourceTree = "<group>"; };
-		6DDB530E29DA036400FBBC94 /* Handlevogn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlevogn.swift; sourceTree = "<group>"; };
+		6DF186FE29DA16D6000D1DAD /* Handlevogn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Handlevogn.swift; path = ../Handlevogn.swift; sourceTree = "<group>"; };
 		6DF70A6929D1C2D500F9F5C6 /* NettButikkAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NettButikkAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF70A6C29D1C2D500F9F5C6 /* NettButikkAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettButikkAPPApp.swift; sourceTree = "<group>"; };
 		6DF70A6E29D1C2D500F9F5C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +44,6 @@
 		6DF70A6029D1C2D500F9F5C6 = {
 			isa = PBXGroup;
 			children = (
-				6DDB530E29DA036400FBBC94 /* Handlevogn.swift */,
 				6DF70A6B29D1C2D500F9F5C6 /* NettButikkAPP */,
 				6DF70A6A29D1C2D500F9F5C6 /* Products */,
 			);
@@ -62,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				6D6F030229D84FFD00E333CC /* LoginSide.swift */,
+				6DF186FE29DA16D6000D1DAD /* Handlevogn.swift */,
 				6D6F02FC29D6FB2100E333CC /* Produkter.swift */,
 				6D6F02F829D6DA6500E333CC /* Brukere.swift */,
 				6DF70A6C29D1C2D500F9F5C6 /* NettButikkAPPApp.swift */,
@@ -156,7 +156,7 @@
 				6D6F02F929D6DA6500E333CC /* Brukere.swift in Sources */,
 				6DF70A6D29D1C2D500F9F5C6 /* NettButikkAPPApp.swift in Sources */,
 				6D6F02FD29D6FB2100E333CC /* Produkter.swift in Sources */,
-				6DDB530F29DA036400FBBC94 /* Handlevogn.swift in Sources */,
+				6DF186FF29DA16D6000D1DAD /* Handlevogn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
